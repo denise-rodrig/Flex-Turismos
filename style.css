@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*cabeçalho*/
+header{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px ;
+    align-items: center;
+    background-color:#122a57;
+}
+header ul,li,a{
+    list-style: none;
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-size:large ;
+    margin-right: 22px;
+}
+header a:hover{
+    color: white;
+    font-size: larger;
+    
+}
+/*seções*/
+.flex-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+#infor h1{
+    color: rgb(26, 26, 110);
+}
+#infor button,a{
+    margin-top: 22px;
+    color: white;
+    font-size: medium;
+    background-color:  #122a57;
+    height: 30px;
+    width: 80%;
+    border-radius: 23px;
+    border: none;
+}
+#quem-somos h2{
+    font-size: 32px;
+    color: #122a57;
+    display: flex;
+    margin-bottom: 20px;
+}
+#quem-somos h2::before{
+    content: "";
+    height: 50px;
+    margin-right: 5px;
+    position: relative;
+    width: 5px;
+    background-color: #122a57;
+    margin-bottom: 5px;
+}
+#quem-somos p{
+    margin-bottom: 10px;
+}
+.seg div +div{
+    margin-right: 43px;
+    width: 50%;
+    text-align: justify;
+}
+.ter{
+    background-color: #122a57;
+    height: max-content;
+
+}
+.ter div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: column;
+}
+#pacotes{
+    flex-direction: row;
+    width: 100%;
+}
+#pacotes  p{
+    text-align: center;
+    margin-top: 10px;
+}
+#pacotes a{
+    margin-left: 45px;
+   
+}
+.qua{
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 20px;
+}
+.qua div{
+    border: #122a57 solid 3px; 
+}
+.qua div h3{
+    border-bottom: #122a57 solid 2px;
+}
+.qua div *{
+    display: block;
+    margin: 28px 10px 24px;
+}
+.qua div a{
+    margin-left: 16px;
+    
+}
+.footer{
+    background-color: #122a57;
+    height: 70px;
+    margin-top: 30px;
+    flex-direction: column;
+}
