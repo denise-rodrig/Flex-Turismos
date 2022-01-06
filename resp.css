@@ -1,0 +1,36 @@
+@media screen and (max-width:900px){
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    header ul{
+        margin-top: 10px;
+    }
+    .main{
+        margin-top: 80px;
+    }
+    .main img{
+        max-width: 70%;
+        margin: 2px 80px;
+    }
+    .ter #pacotes{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    #pacotes div{
+        width: 190px; 
+    }
+    .qua{
+        flex-direction: column;
+        align-items: stretch;
+        width: 70%;
+    }
+    .qua div{
+        margin-bottom: 12px;
+    }
+    .qua div a{
+       margin-left: 10%;
+    }
+}
